@@ -31,7 +31,7 @@ try:
 	import rich
 except ImportError:
 	os.system('pip install rich')
-	time.sleep(1)
+	time.syleep(1)
 	try:
 		import rich
 	except ImportError:
